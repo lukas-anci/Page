@@ -1,0 +1,378 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+:root {
+  --main-color: #2cc0ff;
+  --text-color: white;
+  --secondary-text-color: #09212b;
+  --font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  --bgc-color: #0b2733;
+}
+
+/* Navigation Bar */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--main-color);
+}
+.nav-logo {
+  font-size: 2rem;
+  padding: 1rem;
+  margin-left: 3rem;
+  color: var(--text-color);
+}
+
+.burger {
+  font-size: 2rem;
+  padding: 1rem;
+  color: var(--text-color);
+}
+
+.links {
+  display: none;
+}
+/* Navigation bar */
+
+/* Hero */
+
+.hero {
+  background-image: url(./images/Hero/plane.jpg);
+  background-size: contain;
+  min-height: 250px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+.hero-text {
+  padding-top: 20%;
+  color: var(--text-color);
+  margin-left: 2rem;
+}
+.hero-text__button {
+  padding: 0.8rem;
+  margin: 1em 0;
+  background-color: var(--secondary-text-color);
+  color: var(--text-color);
+  border-radius: 8px;
+  font-size: 1em;
+  font-family: var(--font-family);
+}
+/* Hero */
+/* Courses */
+.courses .icon-container .icon-container__title {
+  color: var(--text-color);
+}
+
+.courses {
+  background-color: var(--bgc-color);
+  padding-bottom: 1rem;
+}
+.container-cards {
+  width: 60%;
+  margin: 0 auto;
+}
+.courses-card {
+  background-color: var(--text-color);
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  box-shadow: 2px 2px 2px var(--main-color);
+}
+.courses-card__title {
+  padding: 1rem;
+}
+.courses-card__date {
+  padding-bottom: 1rem;
+}
+.courses-card__description {
+  text-align: justify;
+  padding: 1rem;
+}
+.courses-card__link {
+  color: var(--main-color);
+}
+.fa-globe-europe {
+  color: var(--main-color);
+  font-weight: 2em;
+  padding-left: 0.5em;
+}
+
+/* Courses */
+
+/* Training */
+.training-card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.training-card__image img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid var(--main-color);
+  margin-right: 1em;
+}
+.training-card__description {
+  text-align: center;
+}
+.training-card__name {
+  font-size: 1.5rem;
+  padding: 0.5em;
+  color: var(--secondary-text-color);
+}
+.training-card__job {
+  padding-bottom: 0.5em;
+  color: var(--secondary-text-color);
+}
+.training-card__text {
+  color: var(--secondary-text-color);
+  padding-bottom: 0.5em;
+}
+.training-card__button {
+  padding: 0.5rem;
+  margin-top: 0.5em;
+  background-color: var(--secondary-text-color);
+  color: var(--text-color);
+  border-radius: 8px;
+  font-size: 1em;
+  font-family: var(--font-family);
+}
+
+/* Training */
+
+/* BLOG */
+.blog {
+  background-color: var(--bgc-color);
+}
+.blog .icon-container .icon-container__title {
+  color: var(--text-color);
+}
+.blog-grid {
+  text-align: center;
+}
+.blog-grid__aside__card__image img {
+  width: 300px;
+}
+.blog-grid__aside__card__text {
+  margin-bottom: 1rem;
+}
+.blog-grid__aside__card__text p {
+  padding: 1rem;
+  color: var(--text-color);
+}
+.blog-grid__aside__card__link {
+  color: var(--main-color);
+}
+.blog-grid__main__card__link {
+  color: var(--text-color);
+}
+.blog-grid__main__card img {
+  width: 300px;
+  padding-top: 1rem;
+}
+.blog-grid__main__card {
+  box-shadow: 7px 11px 17px -7px rgba(0, 0, 0, 0.75);
+  background-color: var(--main-color);
+}
+.blog-grid__main__card__title {
+  padding: 1rem;
+}
+/* Footer */
+.footer {
+  background-color: var(--bgc-color);
+}
+
+.footer-address__block .fas {
+  padding: 1em 2em;
+  color: var(--text-color);
+}
+
+.footer-address__text {
+  color: var(--text-color);
+}
+.footer-about {
+  color: var(--text-color);
+  text-align: left;
+  margin: 1em;
+}
+.footer-about__title {
+  padding-bottom: 1em;
+}
+.footer-about__text {
+  padding-bottom: 1em;
+}
+
+.copy {
+  text-align: center;
+  color: var(--text-color);
+  padding: 0.5em;
+}
+/* Footer */
+
+/* BLOG */
+
+/* global */
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-container .fas {
+  color: var(--main-color);
+  font-size: 2em;
+  padding: 1em;
+}
+.icon-container__title {
+  color: var(--secondary-text-color);
+  text-transform: uppercase;
+  font-family: var(--font-family);
+}
+/* globals */
+
+/* Responsive */
+
+@media screen and (min-width: 640px) {
+  /* Hero */
+
+  .burger {
+    display: none;
+  }
+  .links {
+    display: unset;
+    font-family: inherit;
+    padding-right: 1rem;
+  }
+  .links a {
+    font-size: 1.2em;
+    margin-right: 0.5em;
+    color: var(--text-color);
+  }
+  /* Hero */
+  /* Footer */
+  .footer-address__block {
+    text-align: center;
+  }
+  .footer-about {
+    text-align: center;
+  }
+  /* Footer */
+}
+
+@media screen and (min-width: 768px) {
+  /* Training */
+  .training-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+  }
+  .training-card__text {
+    text-align: left;
+  }
+  /* Training */
+
+  /* Courses */
+  .container-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+  }
+  .courses-card__description {
+    text-align: left;
+  }
+  /* Courses */
+  /* Blog */
+
+  .blog-grid__aside__card__text p {
+    text-align: left;
+  }
+  .blog-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1rem;
+    align-items: center;
+  }
+  .blog-grid__aside__card__image img {
+    width: 100px;
+
+    object-fit: contain;
+  }
+  .blog-grid__aside__card {
+    display: flex;
+    align-items: center;
+  }
+  .blog-grid__main__card {
+    background-color: var(--main-color);
+  }
+
+  /* Blog */
+  /* Footer */
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  /* Footer */
+}
+@media screen and (min-width: 850px) {
+  .footer {
+    background-image: url(./images/Hero/plane.jpg);
+  }
+}
+@media screen and (min-width: 1024px) {
+  /* Training */
+  .training-card {
+    flex-direction: column;
+  }
+  .training-card__text {
+    text-align: justify;
+  }
+  /* Training */
+
+  /* Blog */
+  .blog-grid {
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+  }
+  .blog-grid__main {
+    display: flex;
+  }
+  .blog-grid__main__card {
+    margin-left: 1em;
+  }
+  .blog-grid__main__card img {
+    height: 200px;
+  }
+  /* Blog */
+}
+@media screen and (min-width: 1440px) {
+  .courses-card {
+    font-size: 1.5rem;
+  }
+  .training-card {
+    font-size: 1.5rem;
+  }
+  .blog-grid {
+    font-size: 1.5rem;
+  }
+  .footer {
+    font-size: 1.5rem;
+  }
+}
