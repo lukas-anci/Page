@@ -1,0 +1,25 @@
+/* Navigation Bar */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--main-color);
+}
+.nav-logo {
+  font-size: 2rem;
+  padding: 1rem;
+  margin-left: 3rem;
+  color: var(--text-color);
+}
+
+.burger {
+  font-size: 2rem;
+  padding: 1rem;
+  color: var(--text-color);
+}
+
+.links {
+  display: none;
+}
+/* Navigation bar */

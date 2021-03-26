@@ -1,0 +1,30 @@
+/* Footer */
+.footer {
+  background-color: var(--bgc-color);
+}
+
+.footer-address__block .fas {
+  padding: 1em 2em;
+  color: white;
+}
+
+.footer-address__text {
+  color: white;
+}
+.footer-about {
+  color: white;
+  text-align: left;
+  margin: 1em;
+}
+.footer-about__title {
+  padding-bottom: 1em;
+}
+.footer-about__text {
+  padding-bottom: 1em;
+}
+
+.copy {
+  text-align: center;
+  color: white;
+}
+/* Footer */

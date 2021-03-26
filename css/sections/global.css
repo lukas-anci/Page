@@ -1,0 +1,21 @@
+/* global */
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-container .fas {
+  color: var(--main-color);
+  font-size: 2em;
+  padding: 1em;
+}
+.icon-container__title {
+  color: var(--secondary-text-color);
+  text-transform: uppercase;
+  font-family: var(--font-family);
+}
+/* globals */

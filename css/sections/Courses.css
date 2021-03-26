@@ -1,0 +1,40 @@
+/* Courses */
+.courses .icon-container .icon-container__title {
+  color: white;
+}
+
+.courses {
+  background-color: var(--bgc-color);
+  padding-bottom: 1rem;
+}
+.container-cards {
+  width: 60%;
+  margin: 0 auto;
+}
+.courses-card {
+  background-color: white;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  box-shadow: 2px 2px 2px var(--main-color);
+}
+.courses-card__title {
+  padding: 1rem;
+}
+.courses-card__date {
+  padding-bottom: 1rem;
+}
+.courses-card__description {
+  text-align: justify;
+  padding: 1rem;
+}
+.courses-card__link {
+  color: var(--main-color);
+}
+.fa-globe-europe {
+  color: var(--main-color);
+  font-weight: 2em;
+  padding-left: 0.5em;
+}
+
+/* Courses */

@@ -1,0 +1,26 @@
+/* Hero */
+
+.hero {
+  /* background-image: url(//images/Hero/plane.jpg); */
+  background-size: contain;
+  min-height: 250px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+.hero-text {
+  padding-top: 20%;
+  color: var(--text-color);
+  margin-left: 2rem;
+}
+.hero-text__button {
+  padding: 0.8rem;
+  margin: 1em 0;
+  background-color: var(--secondary-text-color);
+  color: var(--text-color);
+  border-radius: 8px;
+  font-size: 1em;
+  font-family: var(--font-family);
+}
+/* Hero */

@@ -1,0 +1,42 @@
+/* Training */
+.training-card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.training-card__image img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid var(--main-color);
+  margin-right: 1em;
+}
+.training-card__description {
+  text-align: center;
+}
+.training-card__name {
+  font-size: 1.5rem;
+  padding: 0.5em;
+  color: var(--secondary-text-color);
+}
+.training-card__job {
+  padding-bottom: 0.5em;
+  color: var(--secondary-text-color);
+}
+.training-card__text {
+  color: var(--secondary-text-color);
+  padding-bottom: 0.5em;
+}
+.training-card__button {
+  padding: 0.5rem;
+  margin-top: 0.5em;
+  background-color: var(--secondary-text-color);
+  color: var(--text-color);
+  border-radius: 8px;
+  font-size: 1em;
+  font-family: var(--font-family);
+}
+
+/* Training */

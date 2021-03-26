@@ -1,0 +1,127 @@
+/* Responsive */
+
+@media screen and (min-width: 640px) {
+  /* Hero */
+
+  .burger {
+    display: none;
+  }
+  .links {
+    display: unset;
+    font-family: inherit;
+    padding-right: 1rem;
+  }
+  .links a {
+    font-size: 1.2em;
+    margin-right: 0.5em;
+    color: var(--text-color);
+  }
+  /* Hero */
+  /* Footer */
+  .footer-address__block {
+    text-align: center;
+  }
+  .footer-about {
+    text-align: center;
+  }
+  /* Footer */
+}
+
+@media screen and (min-width: 768px) {
+  /* Training */
+  .training-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+  }
+  .training-card__text {
+    text-align: left;
+  }
+  /* Training */
+
+  /* Courses */
+  .container-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+  }
+  .courses-card__description {
+    text-align: left;
+  }
+  /* Courses */
+  /* Blog */
+  .blog-grid__aside__card__text p {
+    text-align: left;
+  }
+  .blog-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1rem;
+    align-items: center;
+  }
+  .blog-grid__aside__card__image img {
+    width: 100px;
+
+    object-fit: contain;
+  }
+  .blog-grid__aside__card {
+    display: flex;
+    align-items: center;
+  }
+  .blog-grid__main__card {
+    background-color: var(--main-color);
+  }
+
+  /* Blog */
+  /* Footer */
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  /* Footer */
+}
+@media screen and (min-width: 850px) {
+  /* .footer { */
+  /* background-image: url(./images/Hero/plane.jpg); */
+}
+
+@media screen and (min-width: 1024px) {
+  /* Training */
+  .training-card {
+    flex-direction: column;
+  }
+  .training-card__text {
+    text-align: justify;
+  }
+  /* Training */
+
+  /* Blog */
+  .blog-grid {
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+  }
+  .blog-grid__main {
+    display: flex;
+  }
+  .blog-grid__main__card {
+    margin-left: 1em;
+  }
+  .blog-grid__main__card img {
+    height: 200px;
+  }
+  /* Blog */
+}
+@media screen and (min-width: 1440px) {
+  .courses-card {
+    font-size: 1.5rem;
+  }
+  .training-card {
+    font-size: 1.5rem;
+  }
+  .blog-grid {
+    font-size: 1.5rem;
+  }
+  .footer {
+    font-size: 1.5rem;
+  }
+}
